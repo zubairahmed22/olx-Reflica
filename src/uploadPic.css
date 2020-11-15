@@ -1,0 +1,31 @@
+.addPhoto{
+    background: transparent;
+    opacity:0.0;
+    filter: alpha(opacity=0);
+    margin-right: 10px;
+    position: absolute;
+    margin-top: 20px;
+    
+}
+.AddImge{
+    margin-left: 50px;
+    
+}
+.AddImge>.MuiSvgIcon-root{
+    
+    font-size: 70px;
+    border: 1px solid lightgray;
+}
+.imgeBoxUP{
+   display: flex;
+    border: 2px solid lightgray;
+    width: 120px;  
+    height: 90px;
+    align-items: center;
+    margin-top: 7px;
+    margin-left: 7px;
+}
+
+  /* .Main_body_box{
+    margin-left: 25px;
+} */

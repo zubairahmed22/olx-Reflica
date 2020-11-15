@@ -1,0 +1,30 @@
+.lastFooter{
+   
+    display: flex;
+    color: #fff;
+    
+    justify-content: space-between;
+   
+    font-size: 12px;
+    line-height: 18px;
+    background: #002f34;
+    padding:4px 0;
+}
+
+.classified{
+    display: flex;
+    margin-right:60px;
+}
+.other{
+    display: flex;
+    margin-left: 60px;
+}
+.other > p{
+    margin-left: 16px;
+    margin-top: 16px;
+}
+
+.classified > p{
+    margin-left: 16px;
+    margin-top: 16px;
+}

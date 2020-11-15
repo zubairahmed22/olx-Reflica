@@ -1,0 +1,58 @@
+
+  ul{
+    padding-inline-start: 25px !important;
+  }  
+.SecondFooter{
+    display: flex;
+    margin-top: 300px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: #ebeeef;
+   
+    border-top: 1px solid rgba(0,47,52,.2);
+    font-size: 13px;
+    line-height: 17px;
+}
+
+.SecondFooter > ul,li{
+    list-style: none;
+    
+    padding-inline-start: 0px !important;
+    margin: 8px 0 0;
+    margin-top: 8px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+.SecondFooter > ul{
+    padding-inline-start: 0px !important;
+    margin: 8px 0 0;
+    margin-top: 8px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+.apple_box{
+    margin-top: 40px;
+}
+.appleicon1,.androied1{
+    width: 75px;
+    height: 25px;
+    margin-right: 12px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .SecondFooter{
+        display: flex;
+        margin-top: 450px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        background: #ebeeef;
+       
+        border-top: 1px solid rgba(0,47,52,.2);
+        font-size: 13px;
+        line-height: 17px;
+    }
+
+}

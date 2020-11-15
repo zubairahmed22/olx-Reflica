@@ -1,0 +1,136 @@
+.add_logo{
+    width: 50px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    object-fit: contain;
+    margin-left: 20px;
+    
+}
+
+.HederTop{
+    background-color: rgb(247 248 249);
+    display: flex;
+    box-shadow: 0px 0px 2px 0px rgb(172, 170, 170);
+    top: 0;
+    position: sticky;
+    z-index: 100;
+    padding: 10px;
+}
+
+.BackArrow {
+    margin-top: 14px !important;
+    margin-left: 20px;
+}
+
+.postAdd{
+    text-align: center;
+}
+
+.SelectedCategory{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border: 1px solid lightgray;
+    width: 70%;
+}
+.heading{
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 20px;
+}
+.heading > h3{
+    margin-left: 25px;
+}
+
+button{
+    padding: 10px;
+    width: 70px;
+    margin: 5px;
+    
+}
+
+.InputFild{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    width: 50%;
+    height: 45px;
+    margin-left: 25px;
+    font-size: 15px;
+}
+
+.InputFild > label{
+   margin-left: 25px;
+   padding: 5px;
+}
+.discription{
+    height: 70px;
+    width: 50%;
+    margin-left: 25px;
+    font-size: 15px;
+}
+.details{
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 35px;
+}
+.details >h3,h4,button{
+    margin-left: 25px;
+}
+
+.used{
+    margin-left: 5px;
+}
+.set_price > h3,p{
+    margin-left: 25px;
+    
+}
+
+.set_price{
+ 
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 35px;
+}
+.upload_photo{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 35px;
+}
+
+.PhotoGellery > h3{
+    margin-left:25px
+}
+.LastFooter{
+margin-top: 25px;
+}
+
+.addPhoto{
+    background: transparent;
+    opacity:0.0;
+    filter: alpha(opacity=0);
+    margin-right: 10px;
+    position: absolute;
+    margin-top: 20px;
+    
+}
+.AddImge{
+    margin-left: 50px;
+    
+}
+.AddImge>.MuiSvgIcon-root{
+    
+    font-size: 70px;
+    border: 1px solid lightgray;
+}
+.imgeBoxUP{
+   display: flex;
+    border: 2px solid lightgray;
+    width: 120px;  
+    height: 90px;
+    align-items: center;
+    margin-top: 7px;
+    margin-left: 7px;
+}

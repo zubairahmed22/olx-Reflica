@@ -1,0 +1,78 @@
+.FooterImage{
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+  
+    width: 100%;
+    left: 0;
+    right: 0;
+    background: rgba(0,47,52,.03);
+    margin-top: 100px;
+}
+.olxImage{
+    position: relative;
+    object-fit: contain;
+}
+.mobileImage{
+    display: flex;
+    object-fit: contain;
+}
+.getApp > h3{
+    margin-top: 50px;
+    font-size: 15px;
+   
+}
+
+.Appicon{
+    display: flex;
+    margin-left: 30px;
+    
+}
+.text > h3{
+    font-size: 20px;
+    line-height: 24px;
+    color: #002f34;
+    font-weight: 600;
+   
+
+}
+.getApp{
+    display: flex;
+    flex-direction: column;
+   
+}
+.appleicon,.androied{
+    width: 128px;
+    height: 40px;
+    margin-right: 8px;
+    object-fit: contain;
+}
+.line{
+    position: absolute;
+    margin-top: 30px;
+     
+    display: flex;
+    flex-direction: row;
+    width: 2px;
+    background-color: rgba(0,47,52,.2);
+    border: 0 solid rgba(0,47,52,.2);
+    height: 136px;
+}
+
+.geth3{
+    margin-left: 30px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .FooterImage{
+        position: absolute;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        width: 100%;
+        left: 0;
+        right: 0;
+        background: rgba(0,47,52,.03);
+        margin-top: 100px;
+    }
+  }

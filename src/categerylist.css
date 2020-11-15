@@ -1,0 +1,38 @@
+.list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    list-style: none;
+    padding-left:  10px;
+    padding-right: 10px;
+}
+.list > li{
+    padding-left: 9px;
+    padding-right: 11px;
+    font-size: 15px;
+    margin-top: -3px;
+}
+
+.All{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: -3px;
+}
+
+.ALLCATEG{
+    display: flex;
+    margin-left: 25px;
+    
+}
+
+.CatArrow{
+    margin-top: 10px;
+    font-size: 35px !important;
+    color: #002f34 !important;
+}
+
+.All > h5{
+    margin-top: 19px;
+    
+}

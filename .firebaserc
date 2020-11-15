@@ -1,0 +1,11 @@
+{
+  "projects": {
+    "default": "olx-reflica",
+    "firebase init": "olx-reflica",
+    "y": "olx-reflica",
+    "n": "olx-reflica",
+    "e": "olx-reflica",
+    "olx-reflica": "olx-reflica",
+    "--project": "olx-reflica"
+  }
+}
